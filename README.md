@@ -6,7 +6,7 @@ This project is a simple web-based application that converts numbers to Roman nu
 
 ## Demo 📸
 
-![Project Demo](./image/Capture.JPG)
+![Project Demo](./image/demo.JPG)
 
 ## Features
 
