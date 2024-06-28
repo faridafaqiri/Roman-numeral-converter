@@ -13,15 +13,15 @@ function toRoman(num) {
     ['V', 5],
     ['IV', 4],
     ['I', 1],
-    ];
+  ];
 
-let roman = '';
-  for (const [letter, value] of numerals) {
+  let roman = '';
+  numerals.forEach(([letter, value]) => {
     while (num >= value) {
       roman += letter;
       num -= value;
-      }
     }
+  });
   return roman;
 }
 
@@ -39,5 +39,5 @@ document.getElementById('convert-btn').addEventListener('click', () => {
   } else {
     const result = toRoman(number);
     output.innerText = result;
-    }
+  }
 });
