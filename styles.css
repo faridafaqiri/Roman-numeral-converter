@@ -1,0 +1,96 @@
+body {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(./image/Honey\ Dew.jpg);
+  margin: 0;
+}
+
+.container {
+  background-color: #d8efd3;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #55ad9b;
+}
+
+#convater-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+label {
+  padding: 10px;
+  margin: 2px;
+  font-size: 1.5rem;
+}
+
+#number {
+  width: 70%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#convert-btn {
+  width: 40%;
+  height: 40px;
+  background-color: #55ad9b;
+  color: aliceblue;
+  font-size: 1.2rem;
+  border: #95d2b3 2px solid;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#output {
+  margin: 10px;
+  border: 3px solid #95d2b3;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  max-width: 500px;
+  min-height: 40px;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
+  .container {
+    padding: 20px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  label {
+    font-size: 1.2rem;
+  }
+
+  #number {
+    width: 90%;
+  }
+
+  #convert-btn {
+    width: 80%;
+    font-size: 1rem;
+  }
+
+  #output {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+}
